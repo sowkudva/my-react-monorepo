@@ -1,0 +1,21 @@
+.result-wrapper {
+  background-color: white;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 20px;
+  max-height: 300px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 0 8px rgb(162, 161, 161);
+}
+
+.result-item {
+  padding: 10px;
+  width: 100%;
+}
+
+.result-item:hover {
+  background-color: rgb(130, 129, 127);
+}

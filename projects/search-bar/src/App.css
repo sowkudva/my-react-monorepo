@@ -1,0 +1,16 @@
+.App {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+}
+
+.search-bar-container {
+  padding-top: 20vh;
+  width: 40%; /* takes 40 5 of parent*/
+  margin: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}

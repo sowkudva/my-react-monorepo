@@ -5,7 +5,6 @@ import { useState } from 'react'
 
 export default function Accordian({ sections }) {
   const [openOptions, setOpenOptions] = useState(new Set())
-
   const handleClick = (value) => {
     const newOpenOptions = new Set(openOptions)
     newOpenOptions.has(value)
@@ -17,16 +16,22 @@ export default function Accordian({ sections }) {
     <div className='accordian'>
       {sections.map(({ value, title, content }) => {
         const isExpanded = openOptions.has(value)
-
         return (
           <div className='accordian-item' key={value}>
             <button
-              className='accordian-item-title'
+              style={{
+                border: 'none',
+                background: 'transparent',
+                display: 'flex',
+                justifyContent: 'space-between',
+                textAlign: 'start',
+                alignItems: 'flex-start',
+              }}
               type='button'
               onClick={() => handleClick(value)}
             >
               {title}
-              <span className='accordian-icon'>
+              <span>
                 <FontAwesomeIcon icon={isExpanded ? faAngleDown : faAngleUp} />
               </span>
             </button>
