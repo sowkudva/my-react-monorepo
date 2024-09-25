@@ -1,0 +1,16 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin: 10px;
+  border: 1px solid gray;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.active {
+  background-color: blue;
+  color: white;
+}
