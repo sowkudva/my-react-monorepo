@@ -1,0 +1,22 @@
+table {
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+td,
+th {
+  border-bottom: 1px solid #ddd;
+  padding: 10px;
+  text-align: start;
+}
+
+.data-table-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pagination {
+  display: flex;
+  gap: 10px;
+}

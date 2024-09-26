@@ -2,6 +2,8 @@ import ProgressBar from './components/ProgressBar.js'
 import { useState, useEffect, useRef } from 'react'
 
 //question taken from jsCafe -> https://www.jscafe.dev/sandbox/progress-bar-react-js
+// check great frontend for variation 2
+// check dev tools for variation 3
 
 const totalMs = 15 * 1000
 const interval = 1 * 1000

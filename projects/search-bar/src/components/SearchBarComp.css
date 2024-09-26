@@ -4,6 +4,7 @@
   border-radius: 10px;
   height: 7vh;
   display: flex;
+  justify-content: space-between;
   align-items: center;
   box-shadow: 0 0 8px rgb(162, 161, 161);
   padding: 20px;

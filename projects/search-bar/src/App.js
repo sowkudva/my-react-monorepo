@@ -5,6 +5,9 @@ import SearchBarComp from './components/SearchBarComp'
 import SearchResults from './components/SearchResults'
 
 // https://www.youtube.com/watch?v=sWVgMcz8Q44 -video tutorial
+// implement debounce
+// add clear feature
+
 function App() {
   const [results, setResults] = useState([])
   return (
